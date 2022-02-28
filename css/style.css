@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 20%;
+   border: 3px solid white;
+    border-radius: 50px;
+}
+.nav-list{
+    width: 70%;
+    
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.nav-list li{
+     list-style: none;
+     padding: 22px 16px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family:'Luxurious Roman', cursive ;
+    
+}
+.nav-list li a:hover{
+    
+    color: red;
+    
+}
+.right-nav{
+    width: 30%;
+   padding: 0 23px;
+    text-align: right;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0,0,0.7)url('../image/buliding.jfif');
+
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+
+}
+.firstSection{
+    height: 100vh;
+}
+.firsthalf{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.secondhalf{
+    width: 30%;
+
+}
+.secondhalf img{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 30px;
+}
+.text-small{
+    font-size: 15px;
+}
+.btn{
+    padding: 7px 3px;
+    margin: 3px 1px;
+    border: 2px solid red;
+    border-radius: 14px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+   background-color: red;
+    color: white;
+}
+.btn-sm{
+    padding: 6px 13px;
+    vertical-align: middle;
+    border: 2px solid white;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Luxurious Roman', cursive;
+}
+.sectionLeft{
+    flex-direction: row-reverse;
+}
+.sectionSubtag{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thumbnail img{
+    width: 250px;
+    border: 2px solid red;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.contact{
+    background: rgb(235, 231, 227);
+    height: 600px;
+
+}
+.text-center{
+    text-align: center;
+    padding-top: 10px;
+    font-family:'Luxurious Roman', cursive; 
+    font-size: 35px;
+}
+.form{
+    max-width: 70%;
+    margin: 25px auto;
+}
+.form-input{
+    margin: 14px 0;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.btn-dark{
+    color: black;
+    width: 100px;
+    
+}
+.text-footer{
+    text-align: center;
+    padding:30px 0;
+    font-family:'Luxurious Roman', cursive; 
+    display: flex;
+    justify-content: center;
+    color: white;
+   
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+   .container{
+            min-height: 100vh;
+            font-size: 24px;
+        }
+.text-color{
+           color: antiquewhite;
+    font-size: 24px;
+        }
+        .payment{
+            color: rgb(36, 145, 196);
+            margin: 54px;
+        }
+
+.payment a{
+    /* text-decoration: none; */
+    color: red;
+}  
+.subscribe{
+    text-align: center;
+    color: white;
+}   
+.admission h2{
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    
+    
+}   
+.admission-form{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 128px; */
+    color: white;
+    
+}
+.admission-form input{
+    width: 346px;
+    height: 26px;
+    border: 2px solid red;
+    border-radius: 5px;
+    /* color: white; */
+}
