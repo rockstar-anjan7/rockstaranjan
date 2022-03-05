@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 $insert=false;
 if (isset($_POST['name'])){
 
@@ -31,6 +31,22 @@ if(!$con){
     $con->close();
 } 
    
+?> -->
+<?php
+// get data from here
+  $name = $_POST['name'];
+  $phone = $_POST['phone'];
+  $email = $_POST['email'];
+  $message = $_POST['text'];
+  $to="vishwakarmaanjan@gmail.com";
+  $subject="Mail from Modern Career Classes";
+  $txt="Name = ". $name. "\r\n Email = " .$email ."\r\n Phone = " .$phone . "\r\n Message =".$message;
+  $headers= "From :rockstaranjan.netlify.app"."\r\n"."CC: somebodyelse@example.com";
+  if ($email!=NULL) {
+      mail($to,$subject,$txt,$headers);
+    //   header("Location:contact.html");
+    // $echo="thanks for contacting us";
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
